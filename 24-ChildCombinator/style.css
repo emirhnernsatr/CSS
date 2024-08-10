@@ -1,0 +1,9 @@
+ul span{
+    color: red;
+}
+ul > span{
+    color: blue;
+}
+ol li {
+    border: 2px solid red;
+}
