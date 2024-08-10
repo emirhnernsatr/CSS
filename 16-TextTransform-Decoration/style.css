@@ -1,0 +1,30 @@
+#lowercase{
+    text-transform: lowercase;
+}
+#capitalize{
+    text-transform: capitalize;
+}
+#uppercase{
+    text-transform: uppercase;
+}
+p{
+  font-size: 30px;
+}
+#dashed{
+    text-decoration-line: line-through ;
+    text-decoration-style: dashed;
+    text-decoration-color: red ;
+}
+#double{
+    text-decoration-line: line-through ;
+    text-decoration-style: double;
+    text-decoration-color: red ;
+}
+#solid{
+    text-decoration-line: line-through ;
+    text-decoration-style: solid;
+    text-decoration-color: red ;
+}
+#decoration{
+    text-decoration: line-through dotted red;
+}
