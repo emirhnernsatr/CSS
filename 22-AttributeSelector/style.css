@@ -1,0 +1,11 @@
+input[type="text"] {
+    border: 3px solid red;
+}
+
+input[type="number"] {
+    border: 3px solid blue;
+}
+
+input[type="checkbox"] {
+    margin-right: 60px;
+}
