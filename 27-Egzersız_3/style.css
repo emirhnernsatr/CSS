@@ -1,0 +1,29 @@
+h1,h2 {
+    color: blue
+}
+
+h2.title {
+    color: brown;
+}
+
+li {
+    color: red
+}
+
+ul span {
+    color: pink;
+}
+
+#kaydet {
+    background-color: blue;
+    color: white;
+}
+
+input[type="email"] {
+    background-color: blue;
+    color: white;
+}
+
+.green {
+    color: green;
+}
