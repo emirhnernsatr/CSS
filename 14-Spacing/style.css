@@ -1,0 +1,14 @@
+h1{
+    font-size: 70px; 
+    letter-spacing: 30px; /* harflerın bosluklarını genısletır*/   
+}
+p{
+    font-weight: bold;
+    font-size: 20px;
+    font-style: italic;
+    line-height: 60px;  /* satırların boslıklarını genısletır*/
+}
+h2{
+    font-size: 50px;
+    word-spacing: 40px; /*kelımelerın bosluklarını genısletır*/
+}
