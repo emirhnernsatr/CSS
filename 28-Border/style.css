@@ -1,0 +1,17 @@
+h1 {
+    /*
+    border-width: 2px;
+    border-color: red;
+    border-style: solid;
+    */
+    /*border: 2px solid red;*/
+
+    border-bottom: 4px solid red;
+    border-right: 4px double green;
+    border-left: 4px dotted blue;
+    border-top: 4px dashed yellow;
+
+}
+body{
+    background-color: gray;
+}
