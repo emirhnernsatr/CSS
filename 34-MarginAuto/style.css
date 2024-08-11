@@ -1,0 +1,28 @@
+#conteiner{
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 600px;
+    height: 300px;
+    margin: 10px 0px;
+}
+
+#conteiner h2 {
+text-align: center;
+border: 1px solid black;
+width: 250px;
+margin: auto;
+
+}
+
+#box{
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 600px;
+    height: 300px;
+}
+#box h2 {
+    text-align: center;
+    width: 250px;
+    border: 1px solid black;
+    margin:  10px auto;
+    }
