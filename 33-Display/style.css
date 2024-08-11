@@ -1,0 +1,28 @@
+.inline {
+    display: inline;
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.inlineBlock {
+    display: inline-block;
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.block {
+    display: block;
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
+.none {
+    display: none;
+    background-color: yellow;
+    border: 2px solid blue;
+    width: 100px;
+    height: 100px;
+}
