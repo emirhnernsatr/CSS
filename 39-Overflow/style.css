@@ -1,0 +1,28 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 3px solid black;
+    overflow: hidden;
+    margin: 10px 0px;
+}
+
+.box2{
+    margin: 10px 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 3px solid black;
+    overflow: scroll;
+    
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border-radius: 30px;
+    border: 3px solid black;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
