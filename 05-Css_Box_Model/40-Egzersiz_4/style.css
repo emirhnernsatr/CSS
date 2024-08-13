@@ -1,0 +1,42 @@
+body {
+    background-color: pink;
+    color: blueviolet;
+}
+
+.box {
+    background-color: white;
+    width: 500px;
+    border-radius: 30px;
+    margin: 150px auto;
+    padding: 40px;
+}
+
+.box h2 {
+    text-transform: uppercase;
+    margin-bottom: 0;
+    font-size: 25px;
+}
+
+.box h1 {
+    margin-top: 0;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.box p {
+    font-size: 20px;
+}
+
+.box button {
+    background-color: green;
+    color: white;
+    padding: 20px 30px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.box button:hover{
+    cursor: pointer;
+}
