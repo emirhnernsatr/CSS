@@ -1,0 +1,21 @@
+body {
+    position: relative;
+}
+
+.title {
+    background-color: rebeccapurple;
+    color: white;
+    position: fixed;
+    left: 0;
+    /* top: 0; */
+    width: 100%;
+    padding: 30px;
+    bottom: 0;
+}
+
+#mavi{
+    color: white;
+    background-color: blue;
+    position: sticky;
+    top: 0;
+}
