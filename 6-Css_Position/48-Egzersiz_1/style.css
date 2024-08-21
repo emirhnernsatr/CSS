@@ -1,0 +1,41 @@
+body {
+    margin: 0; 
+}
+
+#yesil {
+    background-color: green;
+    width: 150px;
+    height: 150px;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#mavi {
+    background-color: blue;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+#pembe {
+    background-color: pink;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+#gri {
+    background-color: gray;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
