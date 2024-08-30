@@ -1,0 +1,18 @@
+.box {
+    width: 500px;
+    height: 500px;
+    border: 1px solid blue;
+    background-image: url(box1.jpg);
+    background-size: cover;
+    background-position: right;
+}
+
+.box2 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid blue;
+    background-image: url(box2.jpg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}

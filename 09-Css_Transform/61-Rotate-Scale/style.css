@@ -1,0 +1,44 @@
+.box, .box2, .box3, .box4 {
+    margin: 60px;
+}
+
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: rotate(45deg);
+
+}
+
+.box2 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scale(1.5);
+
+}
+
+.box3 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scaleX(1.5);
+}
+
+.box4 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    transform: scaleY(1.5);
+}
+
+.box5 {
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 70px 150px;
+    transform: scale(1.5, 0.5);
+}
