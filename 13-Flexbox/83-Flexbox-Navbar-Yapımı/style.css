@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: burlywood;
+    height: 70px;
+    display: flex;
+    align-items: center;
+
+
+}
+
+.navLink{
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-size: 20px;
+    
+}
+
+.register{
+    margin-left: auto !important;
+    margin-right: 50px !important;
+}
