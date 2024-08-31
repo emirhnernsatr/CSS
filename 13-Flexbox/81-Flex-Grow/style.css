@@ -1,0 +1,27 @@
+h1 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.container {
+    border: 4px solid black;
+    width: 70%;
+    height: 1000px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.container p{
+    width: 600px;
+    margin: 0px;
+    background-color: lightgreen;
+    flex-grow: 1;
+}
+
+
+.sidebar{
+    background-color: blueviolet;
+    flex-grow: 1;
+}
