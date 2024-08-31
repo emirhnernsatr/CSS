@@ -1,0 +1,44 @@
+body {
+    margin: 0px;
+}
+
+.navbar {
+    background-color: lightblue;
+    padding: 0px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links{
+    display: flex;
+}
+
+.navbar a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 20px;
+}
+
+@media screen and (max-width: 1024px) {}
+
+@media screen and (max-width: 768px) {
+    .navbar a {
+        margin: 0px 5px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .links {
+        flex-direction: column;
+    }
+
+    .navbar a {
+        margin: 10px
+    }
+}
