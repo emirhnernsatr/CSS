@@ -1,0 +1,14 @@
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div::before {
+    content: "Before!";
+}
+
+div::after {
+    content: "After!";
+}
