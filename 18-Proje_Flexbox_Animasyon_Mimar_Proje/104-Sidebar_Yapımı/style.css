@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+}
+
+.navbar {
+    margin: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    font-weight: 300;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 36px;
+    height: 4px;
+    background-color: black;
+    border-radius: 10px;
+    margin: 3px;
+}
+
+.navbar .hamburger {
+    display: none;
+    z-index: 1;
+}
+
+.links ul {
+    display: flex;
+    list-style: none;
+
+}
+
+.links a {
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0px 8px;
+}
+
+
+a.active {
+    border-bottom: 1px solid black;
+}
+
+.gallery {
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 49%;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+.card img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card img:hover {
+    opacity: 0.9;
+}
+
+.card h2 {
+    margin: 8px 0px 16px 0px;
+    font-weight: 300;
+}
+
+.why {
+    width: 50%;
+    margin: 100px 200px;
+}
+
+.banner {
+    font-size: 25px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.message {
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    margin-top: 0px;
+    border-bottom: 1px solid black;
+    padding-bottom: 8px;
+}
+
+.contact p {
+    margin: 0;
+    font-weight: 600;
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .navbar .hamburger {
+        display: block;
+    }
+
+    .navbar .links {
+        display: none;
+    }
+
+    .card {
+        width: 100%;
+        padding: 0;
+    }
+
+    .why {
+        width: 80%;
+        padding: 20px;
+        margin: 0;
+    }
+
+    .message {
+        font-size: 40px;
+    }
+}
+
+.animationBar1 {
+    animation: 1s fadeBar2;
+    animation-fill-mode: forwards;
+}
+
+.animationBar2 {
+    animation: 1s fadeBar1;
+    animation-fill-mode: forwards;
+}
+
+.animationBar3 {
+    animation: 1s fadeBar3;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeBar2 {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0);
+    }
+
+}
+
+@keyframes fadeBar1 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(45deg) translateY(5px);
+    }
+
+}
+
+@keyframes fadeBar3 {
+    from {
+        transform: rotate(0);
+    }
+
+    to {
+        transform: rotate(-45deg) translateY(-5px);
+    }
+}
+
+.mobilNav {
+    position: fixed;
+    width: 80px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    right: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.mobilNav a {
+    color: black;
+    text-decoration: none;
+    margin: 16px 0px;
+}
