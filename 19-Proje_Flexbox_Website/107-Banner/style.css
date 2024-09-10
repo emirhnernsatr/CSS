@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+    height: 80px;
+    padding: 0px 15px;
+}
+
+.header a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.banner {
+    height: 400px;
+    position: relative;
+}
+
+.bannerDiv {
+    text-align: center;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+}
