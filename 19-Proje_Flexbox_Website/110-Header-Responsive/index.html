@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="header" id="headerDiv">
+
+        <div class="mobileIcon" onclick="toggle()">
+            <img src="icon.jpg" width="50px" height="50px" alt="">
+        </div>
+
+        <div>
+            <img class="headerimg" src="1.jpg" alt="" width="32px" height="32px">
+        </div>
+        <div class="mobileLinkDisplay" id="navDiv">
+            <div class="mobileLink">
+                <a class="headerlink" href="#">Home</a>
+                <a class="headerlink" href="#">About</a>
+                <a class="headerlink" href="#">Contact</a>
+            </div>
+        </div>
+    </div>
+
+    <div style="background-image: url(banner.jpg);" class="banner">
+        <div class="bannerDiv">
+            <h3>Banner</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Pariatur, corporis maiores! Natus iusto autem
+                quas, voluptatibus sapiente incidunt itaque nesciunt laboriosam, fuga laudantium molestias assumenda
+                repellendus porro sed dolores esse.</p>
+        </div>
+    </div>
+
+    <div class="card">
+        <div class="imgDiv">
+            <img src="1.jpg" alt="" class="img">
+            <h3>Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur fugiat commodi dolorum ut
+                sed,
+                earum dolore esse harum ea vitae vel a delectus aliquam ex asperiores ab eius perspiciatis.</p>
+        </div>
+
+        <div class="imgDiv">
+            <img src="2.jpg" alt="" class="img">
+            <h3>Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur fugiat commodi dolorum ut
+                sed,
+                earum dolore esse harum ea vitae vel a delectus aliquam ex asperiores ab eius perspiciatis.</p>
+        </div>
+
+        <div class="imgDiv">
+            <img src="3.jpg" alt="" class="img">
+            <h3>Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur fugiat commodi dolorum ut
+                sed,
+                earum dolore esse harum ea vitae vel a delectus aliquam ex asperiores ab eius perspiciatis.</p>
+        </div>
+
+        <div class="imgDiv">
+            <img src="4.jpg" alt="" class="img">
+            <h3>Resim</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam aspernatur fugiat commodi dolorum ut
+                sed,
+                earum dolore esse harum ea vitae vel a delectus aliquam ex asperiores ab eius perspiciatis.</p>
+        </div>
+    </div>
+
+
+    <form class="form">
+        <label>Ad</label>
+        <input type="text" name="firstname" placeholder="Adınızı giriniz">
+
+        <label>Soyad</label>
+        <input type="text" name="lastname" placeholder="Soyadınızı giriniz">
+
+        <label for="country">Ülke</label>
+        <select name="country">
+            <option value="tr">Türkçe</option>
+            <option value="fr">Francais</option>
+            <option value="en">England</option>
+        </select>
+        <input type="submit" value="kaydet">
+    </form>
+
+    <div class="footer">
+        <h3>Frontend && Tüm Hakları Saklıdır</h3>
+    </div>
+
+    <script>
+        function toggle() {
+            let x = document.getElementById("navDiv");
+            let y = document.getElementById("headerDiv");
+            if (x.style.display === "none") {
+                x.style.display = "block";
+                y.style.height="auto"
+            } else {
+                x.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
